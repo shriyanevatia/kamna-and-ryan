@@ -44,6 +44,9 @@ ul li p #date {
 label{
 	margin:0;
 }
+.thanks {
+  color: #fff;
+}
 .logo {
 	float:left;
 }
@@ -671,6 +674,7 @@ a.sign {
 }
 .story-grids {
   margin-top: 5em;
+  text-align: left;
 }
 .story-grid img {
   border-radius: 50%;
@@ -687,10 +691,11 @@ a.sign {
   Margin:1.5em 0 0.5em 0;
  }
  .story-grid p {
-  text-align: center;
+  text-indent: 50px;
+  text-align: left;
   line-height: 1.8em;
   font-size: 0.9em;
- color: #2F3338;
+  color: #2F3338;
 }
 /*--events--*/
 .event-section{
@@ -756,8 +761,44 @@ margin-right:0%;
   display: block;
 }
 /*--about--*/
-.banner.two {
-  background: url(../images/bg-two.jpg) no-repeat 0px 0px;
+.banner.bg-story {
+  background: url(../images/bg-story.jpg) no-repeat 0px 0px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height:400px;
+}
+.banner.bg-bride {
+  background: url(../images/bg-bride.jpg) no-repeat 0px 0px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height:400px;
+}
+.banner.bg-groom {
+  background: url(../images/bg-groom.jpg) no-repeat 0px 0px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height:400px;
+}
+.banner.bg-info {
+  background: url(../images/bg-info.jpg) no-repeat 0px 0px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height:400px;
+}
+.banner.bg-contact {
+  background: url(../images/bg-contact.jpg) no-repeat 0px 0px;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -812,17 +853,20 @@ margin-right:0%;
   font-size: 1.2em;
   font-weight:400;
   margin-top:2px;
+    text-align: left;
 }
 .people-text  h6 {
  color: #2F3338;
   font-size: 0.9em;
   font-weight:400;
   margin: 0.7em 0 0.5em 0;
+    text-align: left;
 }
 .people-text p {
 	  font-size: 0.9em;
-  line-height: 1.8em;
+  line-height: 1.2em;
   color: #2F3338;
+  text-align: left;
 }
 .people-text{
 text-align:right;
