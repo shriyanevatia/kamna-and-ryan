@@ -5,7 +5,7 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 html, body{
-font-family: 'Lora', serif;
+font-family: 'PT Sans', serif;
 	font-size: 100%;
 	background: #FFf;
 }
@@ -27,7 +27,8 @@ input[type="button"],input[type="submit"],li.parallelogram{
 	-ms-transition:0.5s all;
 }
 h1,h2,h3,h4,h5,h6{
-	margin:0;			   
+	margin:0;	
+  font-family: 'Slabo 27px', sans-serif;		   
 }	
 p{
 	margin:0;
@@ -35,6 +36,10 @@ p{
 ul{
 	margin:0;
 	padding:0;
+}
+ul li p #date {
+  font-family: 'Slabo 27px', sans-serif;
+  font-size: 32px;
 }
 label{
 	margin:0;
@@ -47,20 +52,20 @@ label{
  font-size:2.5em;
  padding: 0.5em 0.3em 0 0.5em;
  font-weight:600;
- font-family: 'Lora', serif;
+ font-family: 'Slabo 27px', serif;
  }
 .logo  a h1:hover{
  color:#fff;	
  text-decoration:none;
 }
 .logo  a h1 span{
- color:#00b198;
- font-family: 'Niconne', cursive;
+ color:#d22ca9;
+ font-family: 'Sail', cursive;
  font-weight:400;
 }
 /*-- header --*/
 .header{
-	background: #00b198;
+	background: #d22ca9;
 	padding:0.5em 0;
 }
 .header-left{
@@ -86,33 +91,6 @@ label{
   color: #fff;
   margin-top: 1.1em;
 }
-ul.f-icons{
- float:right;
-}
-.header-right ul li a.facebook,.header-right ul li a.p,.header-right ul li a.twitter{
-	background: url(../images/icons.png) no-repeat 0px 0px;
-	display:inline-block;
-	height: 30px;
-	width: 30px;
-}
-.header-right ul li a.p{
-	background: url(../images/icons.png) no-repeat -30px 0px;
-}
-.header-right ul li a.twitter{
-	background: url(../images/icons.png) no-repeat -60px 0px;
-}
-form.navbar-form.navbar-right {
-  padding: 0;
-}
-.header-right ul li a.facebook:hover,.header-right ul li a:hover.p,.header-right ul li a.twitter:hover{
-  transform: rotateY(360deg);
-  -webkit-transform: rotateY(360deg);
-  -moz-transform: rotateY(360deg);
-  -o-transform: rotateY(360deg);
-  -webkit-transition: 0.8s;
-  -moz-transition: 0.8s;
-  -o-transition: 0.8s;
-  }
 /*-- banner --*/
 .form-control,.btn {
   border-radius: inherit !important;
@@ -141,7 +119,7 @@ form.navbar-form.navbar-right {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #00B198;
+  background: #fff0dd;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
@@ -168,7 +146,7 @@ input.form-control {
   border: none;
 }
 a.sign {
-   background: #2F3338;
+   background: #fff0dd;
   padding: 0.5em 1em;
   outline: none;
   border: none;
@@ -210,9 +188,10 @@ a.sign {
 }
 .top-menu ul li a{
 	font-size: 0.9em;
-	 color: #00B198;
+	 color: #fff;
 	text-decoration:none;
 	padding:30px 12px 31px;
+  font-family: 'Slabo 27px', serif;
 	transition:.5s all;
 	-webkit-transition:.5s all;
 	-moz-transition:.5s all;
@@ -221,11 +200,13 @@ a.sign {
 }
 .top-menu ul li.cap a{
 	text-decoration:none;
-	  background: #00B198;
-	color:#fff;
+	  background: #fff0dd;
+	color:#0f0b0b;
+  font-family: 'Slabo 27px', serif;
 }
 .top-menu ul li a:hover{
-	color:#fff;
+	color:#0f0b0b;
+  font-family: 'Slabo 27px', serif;
 }
 .banner-bottom,.peoples,.news{
 	padding:4em 0;
@@ -251,6 +232,7 @@ a.sign {
 	.top-menu  ul.nav li {
 		display:block;
 		margin-right:0;
+    font-family: 'Slabo 27px', serif;
 	}
 	.top-menu  span.menu{
 		display:block;
@@ -262,14 +244,16 @@ a.sign {
 	  position: absolute;
 	  width: 96%;
 	  background: rgba(47, 51, 56, 0.88);
-	 text-align: center;
-	   z-index: 99999;
+	  text-align: center;
+	  z-index: 99999;
+    font-family: 'Slabo 27px', serif;
 	}
 	.top-menu ul.nav li  a{
 	  padding: 0.5em;
 	  font-weight: 400;
 	  font-size:0.9em;
 	  float:none;	
+    font-family: 'Slabo 27px', serif;
 	 }
 }
 /*----start-home---*/
@@ -443,15 +427,15 @@ a.sign {
   height: 17px;
   width: 17px;
   display: inline-block;
-  background:#00b198;
-  border: 5px solid #00b198;
+  background:#d22ca9;
+  border: 5px solid #d22ca9;
   border-radius: 50%;
   -o-border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
 }
 .callbacks_here a:after{
-  background:#00b198;
+  background:#d22ca9;
   border: 5px solid #2F3338;
 }
 .banner-info{
@@ -464,11 +448,11 @@ a.sign {
   font-size:5em;
   font-weight:400;
   z-index: 999;
-  font-family: 'Lora', serif;
+  font-family: 'Slabo 27px', serif;
 }
 .banner-info h3 lable{
-  font-family: 'Niconne', cursive;
-  color:#00B198;
+  font-family: 'Sail', cursive;
+  color:#d22ca9;
 }
 .banner-info p{
   color: #fff;
@@ -485,8 +469,8 @@ a.sign {
   
 }
 .welcome-section h2{
- font-family: 'Niconne', cursive;
-  color:#00B198;
+ font-family: 'Sail', cursive;
+  color:#d22ca9;
   font-size:4em;
   font-weight:400;
   text-align:center;
@@ -591,36 +575,38 @@ a.sign {
 	-o-transform: rotate3d(0,1,0,180deg);
 	-ms-transform: rotate3d(0,1,0,180deg);
 	transform: rotate3d(0,1,0,180deg);
-	background: #079480;
+	background: #fff0dd;
 }
 
 .ch-img-1 { 
 	background-image: url(../images/w2.jpg);
+  background-position: center; 
+  background-size: 100%;
 }
 
 .ch-img-2 { 
 	background-image: url(../images/w1.jpg);
+  background-position: center; 
+  background-size: 100%;
 }
 
 .ch-info h4 {
-  color: #fff;
-  text-transform: uppercase;
+  color: #0f0b0b;
   letter-spacing: 2px;
-  font-size: 1.4em;
+  font-size: 2em;
   margin: 0 15px;
   padding: 113px 0 0 0;
   height: 159px;
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: 'Sail', Arial, sans-serif;
   text-shadow: 0 0 1px #fff, 
  0 1px 2px rgba(0,0,0,0.3);
 }
 
 .ch-info h5 {
-	color: #fff;
+	color: #0f0b0b;
 	padding: 10px 5px;
-	font-style: italic;
 	margin: 0 30px;
-	font-size: 18px;
+	font-size: 24px;
 	border-top: 1px solid rgba(255,255,255,0.5);
 }
 
@@ -630,11 +616,10 @@ a.sign {
 	color: rgba(255,255,255,0.7);
 	font-style: normal;
 	font-weight: 700;
-	text-transform: uppercase;
 	font-size: 9px;
 	letter-spacing: 1px;
 	padding-top: 4px;
-	font-family: 'Open Sans', Arial, sans-serif;
+	font-family: 'Sail', Arial, sans-serif;
 }
 
 .ch-info p a:hover {
@@ -670,7 +655,7 @@ a.sign {
   color: #fff;
   margin: 15% auto;
   text-align: center;
-  font-family: 'Niconne', cursive;
+  font-family: 'Sail', cursive;
 }
 /*---story-grids--*/
 .story-section {
@@ -678,8 +663,8 @@ a.sign {
   background-color: #eee;
 }
 .story-section h3 {
-  font-family: 'Niconne', cursive;
-  color: #00B198;
+  font-family: 'Sail', cursive;
+  color: #d22ca9;
   font-size: 4em;
   font-weight: 400;
   text-align: center;
@@ -695,11 +680,10 @@ a.sign {
   -ms-border-radius: 50%;
 }
 .story-grid h4 {
-  color: #00B198;
+  color: #d22ca9;
   text-align: center;
   font-size: 1.2em;
   font-weight:400;
-  text-transform: uppercase;
   Margin:1.5em 0 0.5em 0;
  }
  .story-grid p {
@@ -717,8 +701,8 @@ a.sign {
   margin-top: 2em;
 }
 .event-section h3{
- font-family: 'Niconne', cursive;
-  color: #00B198;
+ font-family: 'Sail', cursive;
+  color: #d22ca9;
   font-size: 4em;
   font-weight: 400;
   text-align: center;
@@ -734,11 +718,10 @@ a.sign {
 margin-right:0%;
 }
 .event-grid h4 {
-  color: #00B198;
+  color: #d22ca9;
   text-align: center;
   font-size: 1.2em;
   font-weight:400;
-  text-transform: uppercase;
   Margin: 1.5em 0 0.5em 0;
 }
 .event-grid p {
@@ -757,7 +740,7 @@ margin-right:0%;
   bottom: -53px;
   width: 80px;
   height: 80px;
-  background: #00B198;
+  background: #d22ca9;
   color: #fff;
   font-size: 0.8em;
   border-radius: 50%;
@@ -787,8 +770,8 @@ margin-right:0%;
   text-align: center;
 }
 .about-section  h3{
-  font-family: 'Niconne', cursive;
-  color: #00B198;
+  font-family: 'Sail', cursive;
+  color: #d22ca9;
   font-size: 4em;
   font-weight: 400;
   text-align: center;
@@ -808,8 +791,8 @@ margin-right:0%;
   padding: 0 2px;
 }
 .people-grides  h3 {
-  font-family: 'Niconne', cursive;
-  color: #00B198;
+  font-family: 'Sail', cursive;
+  color: #d22ca9;
   font-size: 4em;
   font-weight: 400;
   text-align: center;
@@ -825,17 +808,15 @@ margin-right:0%;
   width: 100%;
 }
 .people-text  h4 {
-  color: #00B198;
+  color: #d22ca9;
   font-size: 1.2em;
   font-weight:400;
-  text-transform: uppercase;
   margin-top:2px;
 }
 .people-text  h6 {
  color: #2F3338;
   font-size: 0.9em;
   font-weight:400;
-  text-transform: uppercase;
   margin: 0.7em 0 0.5em 0;
 }
 .people-text p {
@@ -854,8 +835,8 @@ text-align:left;
    padding:4em 0;
 }
 h3.type  {
-  font-family: 'Niconne', cursive;
-  color: #00B198;
+  font-family: 'Sail', cursive;
+  color: #d22ca9;
   font-size: 4em;
   font-weight: 400;
   text-align: center;
@@ -925,27 +906,6 @@ h5.typ1{
   -o-transition: width 0.6s ease;
   transition: width 0.6s ease;
 }
-.progress-bar {
-  box-shadow: none;
-}
-.progress-bar-primary {
-  background-color: #03a9f4;
-}
-.progress-bar-info {
-  background-color: #00bcd4;
-}
-.progress-bar-success {
-  background-color: #8bc34a;
-}
-.progress-bar-warning {
-  background-color: #ffc107;
-}
-.progress-bar-danger {
-  background-color: #e51c23;
-}
-.progress-bar-inverse {
-  background-color: #757575;
-}
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
   background-color:#5bb2fc; !important;
   border-color:#5bb2fc; !important;
@@ -1001,8 +961,8 @@ h3.bars {
   margin-top: 2em;
 }
 .moments h3{
-  font-family: 'Niconne', cursive;
-  color: #00B198;
+  font-family: 'Sail', cursive;
+  color: #d22ca9;
   font-size: 4em;
   font-weight: 400;
   text-align: center;
@@ -1018,13 +978,19 @@ h3.bars {
   padding: 4em 0;
   text-align: center;
 }
+/*--map--*/
+#myMap {
+  display:table;
+  margin:0 auto;
+}
+
 /*--sign-up---*/
 .signup-section {
   padding: 4em 0;
 }
 .signup-section h3{
-  font-family: 'Niconne', cursive;
-  color: #00B198;
+  font-family: 'Sail', cursive;
+  color: #d22ca9;
   font-size: 4em;
   font-weight: 400;
   text-align: center;
@@ -1095,7 +1061,7 @@ h3.bars {
 	outline:none;
 }
 .botton{
-	  background: #00B198;
+	  background: #d22ca9;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -1106,7 +1072,6 @@ h3.bars {
 	height: 30px;
 	outline:none;
 	font-size: 14px;
-	text-transform: uppercase;
 	width: 80px!important;
 	text-align: center;
 }
@@ -1259,10 +1224,9 @@ color: #000;
 	margin: 15px 25px;
 }
 .login h4,.sign-up h4 {
-	text-transform: uppercase;
 	font-size: 1.2em;
 	font-weight: 400;
-	  color: #00B198;
+	  color: #d22ca9;
 }
 /*--login--*/
 .login-left {
@@ -1303,7 +1267,6 @@ color: #000;
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
 	display: inline-block;
-	text-transform: uppercase;
 }
 .form-list label {	
 	color: #000;
@@ -1349,7 +1312,6 @@ margin-top: 0;
 	padding-bottom: 0.2em;
 	display: block;
 	font-weight: 700;
-	text-transform: uppercase;
 }
 .login-right input[type="text"] {
 	border: 1px solid #EEE;
@@ -1368,7 +1330,6 @@ margin-top: 0;
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
 	display: inline-block;
-	text-transform: uppercase;
 	border:none;
 	outline:none;
 }
@@ -1381,8 +1342,8 @@ a.forgot {
  padding:4em 0;
 }
 .contact h3 {
-  font-family: 'Niconne', cursive;
-  color: #00B198;
+  font-family: 'Sail', cursive;
+  color: #d22ca9;
   font-size: 4em;
   font-weight: 400;
   text-align: center;
@@ -1442,11 +1403,10 @@ li.contact-grid:hover {
 	opacity: 0.5;
 }
 ul.contact-grids h4{
- color: #00B198;
+ color: #d22ca9;
   text-align: center;
   font-size: 1.2em;
   font-weight: 400;
-  text-transform: uppercase;
   Margin:0.5em 0 0.5em 0;
 }
 ul.contact-grids h5{
@@ -1488,7 +1448,7 @@ ul.contact-grids h5{
 	margin: 2% 0;
 }
 .contact-content input[type="submit"]{
-  background:#00B198;
+  background:#d22ca9;
   color: #fff;
   font-weight: 500;
   border: none;
@@ -1502,7 +1462,6 @@ ul.contact-grids h5{
   -moz-border-radius:0.3em;
   -webkit-border-radius:0.3em;
   -o-border-radius:0.3em;
-  text-transform: uppercase;
   -webkit-appearance:none;
 }
 .contact-content  input[type="submit"]:hover{
@@ -1516,12 +1475,13 @@ ul.contact-grids h5{
 }
 /*--footer--*/
 .footer {
-   background: #00b198;
+   background: #d22ca9;
    padding: 0.5em 0;
+   min-height: 40px
 }
 .copy {
   float:left;  
-  background: #00b198;
+  background: #d22ca9;
    padding: 1em 0 0 0;
 }
 .copy p {
@@ -1949,9 +1909,9 @@ ul.contact-grids h5{
   }
   .ch-info h4 {
   letter-spacing: 2px;
-  font-size: 1.3em;
+  font-size: 2.5em;
   margin: 0 15px;
-  padding:88px 0 0 0;
+  padding: 88px 0 0 0;
   height: 126px;
   }
   .welcome-section h2, .story-section h3, .event-section h3, .about-section h3, .people-grides h3, h3.type, .signup-section h3 {
@@ -2291,7 +2251,7 @@ ul.contact-grids h5{
 	.callbacks_tabs a:after {
 	  height: 10px;
 	  width: 10px;
-	  border: 2px solid #00b198;
+	  border: 2px solid #d22ca9;
 	}
 	.callbacks_here a:after {
 	  border:2px solid #2F3338;
