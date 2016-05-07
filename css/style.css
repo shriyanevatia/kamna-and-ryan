@@ -37,10 +37,6 @@ ul{
 	margin:0;
 	padding:0;
 }
-ul li p #date {
-  font-family: 'Slabo 27px', sans-serif;
-  font-size: 32px;
-}
 label{
 	margin:0;
 }
@@ -54,7 +50,8 @@ label{
  color:#fff;	
  font-size:2.5em;
  padding: 0.5em 0.3em 0 0.5em;
- font-weight:600;
+ font-weight: 600;
+ letter-spacing: 2px;
  font-family: 'Slabo 27px', serif;
  }
 .logo  a h1:hover{
@@ -62,13 +59,13 @@ label{
  text-decoration:none;
 }
 .logo  a h1 span{
- color:#d22ca9;
+ color:#408ff6;
  font-family: 'Sail', cursive;
  font-weight:400;
 }
 /*-- header --*/
 .header{
-	background: #d22ca9;
+	background: #408ff6;
 	padding:0.5em 0;
 }
 .header-left{
@@ -164,7 +161,7 @@ a.sign {
   margin-top: 0.3em;
  }
 .banner{
-  background: url(../images/bg.jpg) no-repeat 0px 0px;
+  background: url(../images/bg.jpeg) no-repeat 0px 0px;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -212,10 +209,10 @@ a.sign {
   font-family: 'Slabo 27px', serif;
 }
 .banner-bottom,.peoples,.news{
-	padding:4em 0;
+	padding:2em 0;
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 1028px) {
 	span.menu {
 	  width: 35px;
 	  height: 35px;
@@ -430,15 +427,15 @@ a.sign {
   height: 17px;
   width: 17px;
   display: inline-block;
-  background:#d22ca9;
-  border: 5px solid #d22ca9;
+  background:#408ff6;
+  border: 5px solid #408ff6;
   border-radius: 50%;
   -o-border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
 }
 .callbacks_here a:after{
-  background:#d22ca9;
+  background:#408ff6;
   border: 5px solid #2F3338;
 }
 .banner-info{
@@ -447,7 +444,6 @@ a.sign {
   text-align: center;
 }
 .banner-info h3{
-  color: #fff;
   font-size:5em;
   font-weight:400;
   z-index: 999;
@@ -455,11 +451,12 @@ a.sign {
 }
 .banner-info h3 lable{
   font-family: 'Sail', cursive;
-  color:#d22ca9;
+  color:#408ff6;
 }
 .banner-info p{
   color: #fff;
-  font-size: 1em;
+  font-size: 1.6em;
+  font-weight: 600;
   z-index: 999;
   text-align: center;
   margin: 0 auto;
@@ -473,7 +470,7 @@ a.sign {
 }
 .welcome-section h2{
  font-family: 'Sail', cursive;
-  color:#d22ca9;
+  color:#408ff6;
   font-size:4em;
   font-weight:400;
   text-align:center;
@@ -534,7 +531,7 @@ a.sign {
 	transition: all 0.4s ease-in-out;
 	top: 10px;
     left: 10px;
-	background: #f9f9f9 url(../images/bg.jpg);
+	background: #f9f9f9 url(../images/bg.jpeg);
 	box-shadow: 
 		0 0 0 20px rgba(255,255,255,0.2), 
 		inset 0 0 3px rgba(115,114, 23, 0.8);
@@ -661,19 +658,15 @@ a.sign {
   font-family: 'Sail', cursive;
 }
 /*---story-grids--*/
-.story-section {
-   padding: 4em 0;
-  background-color: #eee;
-}
 .story-section h3 {
   font-family: 'Sail', cursive;
-  color: #d22ca9;
+  color: #408ff6;
   font-size: 4em;
   font-weight: 400;
   text-align: center;
 }
 .story-grids {
-  margin-top: 5em;
+  margin-top: 3em;
   text-align: left;
 }
 .story-grid img {
@@ -684,7 +677,7 @@ a.sign {
   -ms-border-radius: 50%;
 }
 .story-grid h4 {
-  color: #d22ca9;
+  color: #408ff6;
   text-align: center;
   font-size: 1.2em;
   font-weight:400;
@@ -707,7 +700,7 @@ a.sign {
 }
 .event-section h3{
  font-family: 'Sail', cursive;
-  color: #d22ca9;
+  color: #408ff6;
   font-size: 4em;
   font-weight: 400;
   text-align: center;
@@ -723,7 +716,7 @@ a.sign {
 margin-right:0%;
 }
 .event-grid h4 {
-  color: #d22ca9;
+  color: #408ff6;
   text-align: center;
   font-size: 1.2em;
   font-weight:400;
@@ -745,7 +738,7 @@ margin-right:0%;
   bottom: -53px;
   width: 80px;
   height: 80px;
-  background: #d22ca9;
+  background: #408ff6;
   color: #fff;
   font-size: 0.8em;
   border-radius: 50%;
@@ -812,7 +805,7 @@ margin-right:0%;
 }
 .about-section  h3{
   font-family: 'Sail', cursive;
-  color: #d22ca9;
+  color: #408ff6;
   font-size: 4em;
   font-weight: 400;
   text-align: center;
@@ -833,7 +826,7 @@ margin-right:0%;
 }
 .people-grides  h3 {
   font-family: 'Sail', cursive;
-  color: #d22ca9;
+  color: #408ff6;
   font-size: 4em;
   font-weight: 400;
   text-align: center;
@@ -849,7 +842,7 @@ margin-right:0%;
   width: 100%;
 }
 .people-text  h4 {
-  color: #d22ca9;
+  color: #408ff6;
   font-size: 1.2em;
   font-weight:400;
   margin-top:2px;
@@ -869,7 +862,7 @@ margin-right:0%;
   text-align: left;
 }
 .people-text{
-text-align:right;
+text-align:left;
 }
 .people-text.two {
 text-align:left;
@@ -880,7 +873,7 @@ text-align:left;
 }
 h3.type  {
   font-family: 'Sail', cursive;
-  color: #d22ca9;
+  color: #408ff6;
   font-size: 4em;
   font-weight: 400;
   text-align: center;
@@ -1006,7 +999,7 @@ h3.bars {
 }
 .moments h3{
   font-family: 'Sail', cursive;
-  color: #d22ca9;
+  color: #408ff6;
   font-size: 4em;
   font-weight: 400;
   text-align: center;
@@ -1034,7 +1027,7 @@ h3.bars {
 }
 .signup-section h3{
   font-family: 'Sail', cursive;
-  color: #d22ca9;
+  color: #408ff6;
   font-size: 4em;
   font-weight: 400;
   text-align: center;
@@ -1105,7 +1098,7 @@ h3.bars {
 	outline:none;
 }
 .botton{
-	  background: #d22ca9;
+	  background: #408ff6;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -1270,7 +1263,7 @@ color: #000;
 .login h4,.sign-up h4 {
 	font-size: 1.2em;
 	font-weight: 400;
-	  color: #d22ca9;
+	  color: #408ff6;
 }
 /*--login--*/
 .login-left {
@@ -1382,12 +1375,9 @@ a.forgot {
 	margin-right: 11px;
 }
 /*--contact--*/
-.contact{
- padding:4em 0;
-}
 .contact h3 {
   font-family: 'Sail', cursive;
-  color: #d22ca9;
+  color: #408ff6;
   font-size: 4em;
   font-weight: 400;
   text-align: center;
@@ -1447,7 +1437,7 @@ li.contact-grid:hover {
 	opacity: 0.5;
 }
 ul.contact-grids h4{
- color: #d22ca9;
+ color: #408ff6;
   text-align: center;
   font-size: 1.2em;
   font-weight: 400;
@@ -1492,7 +1482,7 @@ ul.contact-grids h5{
 	margin: 2% 0;
 }
 .contact-content input[type="submit"]{
-  background:#d22ca9;
+  background:#408ff6;
   color: #fff;
   font-weight: 500;
   border: none;
@@ -1519,13 +1509,13 @@ ul.contact-grids h5{
 }
 /*--footer--*/
 .footer {
-   background: #d22ca9;
+   background: #408ff6;
    padding: 0.5em 0;
    min-height: 40px
 }
 .copy {
   float:left;  
-  background: #d22ca9;
+  background: #408ff6;
    padding: 1em 0 0 0;
 }
 .copy p {
@@ -1555,7 +1545,7 @@ ul.contact-grids h5{
 /*--responsive--*/
 @media (max-width:1440px){
 	.banner {
-	  background: url(../images/bg.jpg) no-repeat 0px 0px;
+	  background: url(../images/bg.jpeg) no-repeat 0px 0px;
 	  background-size: cover;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
@@ -1583,7 +1573,7 @@ ul.contact-grids h5{
 }
 @media (max-width:1366px){
 	.banner {
-	  background: url(../images/bg.jpg) no-repeat 0px 0px;
+	  background: url(../images/bg.jpeg) no-repeat 0px 0px;
 	  background-size: cover;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
@@ -1636,7 +1626,7 @@ ul.contact-grids h5{
 }
 @media (max-width:1024px){
 	.banner {
-	  background: url(../images/bg.jpg) no-repeat 0px 0px;
+	  background: url(../images/bg.jpeg) no-repeat 0px 0px;
 	  background-size: cover;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
@@ -1650,7 +1640,7 @@ ul.contact-grids h5{
 	  text-align: center;
 	}
 	.banner-info h3 {
-	  font-size: 4em;
+	  font-size: 3.5em;
 	}
 	.bottom-section {
 	  background: url(../images/bottom.jpg) no-repeat 0px 0px;
@@ -1715,7 +1705,7 @@ ul.contact-grids h5{
 	  left: 44%;
 	}
 }
-@media (max-width:768px){
+@media (max-width:1028px){
 	.header-right {
 	  float: right;
 	  width: 27%;
@@ -1724,7 +1714,7 @@ ul.contact-grids h5{
 	  font-size: 2.3em;
 	}
 	.banner {
-	  background: url(../images/bg.jpg) no-repeat 0px 0px;
+	  background: url(../images/bg.jpeg) no-repeat 0px 0px;
 	  background-size: cover;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
@@ -1752,14 +1742,11 @@ ul.contact-grids h5{
 	  width: 33%;
 	}
 	.story-grids {
-	  margin-top: 3em;
+	  margin: 1em;
 	}
 	.story-grid p {
      font-size: 0.85em;
     }
-	.story-section {
-	  padding: 3em 0;
-	}
 	.welcome-section {
 	  padding: 3em 0;
 	}
@@ -1884,25 +1871,25 @@ ul.contact-grids h5{
 	  width: 49%;
 	}
 	.people-text {
-	  text-align: right;
+	  text-align: left;
 	  width: 67%;
 	  float: left;
 	}
 	.people-text.two {
 	  text-align:left;
 	  width: 67%;
-	  float:right;
+	  float: left;
 	}
     .people-img {
 	  margin-top: 3px;
 	  width: 31%;
-	  float: right;
+	  float: left;
 	   padding: 0 2px;
 	}
 	  .people-img.two {
 	  margin-top: 3px;
 	  width: 31%;
-	  float: right;
+	  float: left;
 	   padding: 0 2px;
 	}
 	.people-text,.people-text.two {
@@ -1922,7 +1909,7 @@ ul.contact-grids h5{
 	  text-align: center;
 	}
 	.banner {
-	  background: url(../images/bg.jpg) no-repeat 0px 0px;
+	  background: url(../images/bg.jpeg) no-repeat 0px 0px;
 	  background-size: cover;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
@@ -2056,7 +2043,7 @@ ul.contact-grids h5{
 }
 @media (max-width:480px){
 	.banner {
-	  background: url(../images/bg.jpg) no-repeat 0px 0px;
+	  background: url(../images/bg.jpeg) no-repeat 0px 0px;
 	  background-size: cover;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
@@ -2259,7 +2246,7 @@ ul.contact-grids h5{
 	  font-size: 1.8em;
 	}
 	.banner {
-	  background: url(../images/bg.jpg) no-repeat 0px 0px;
+	  background: url(../images/bg.jpeg) no-repeat 0px 0px;
 	  background-size: cover;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
@@ -2295,7 +2282,7 @@ ul.contact-grids h5{
 	.callbacks_tabs a:after {
 	  height: 10px;
 	  width: 10px;
-	  border: 2px solid #d22ca9;
+	  border: 2px solid #408ff6;
 	}
 	.callbacks_here a:after {
 	  border:2px solid #2F3338;
@@ -2309,13 +2296,14 @@ ul.contact-grids h5{
 	.story-grid {
 	  float: left;
 	  width: 100%;
-	  padding: 0;margin-bottom: 1.2em;
+	  padding: 0;
+    margin-bottom: 1.2em;
 	}
 	.story-grid:nth-child(3), .event-grid:nth-child(3) {
 	  display: block;
 	}
 	.story-section {
-	  padding: 1.1em 0;
+	  padding: 1em 0;
 	}
 	.story-grid img {
 	  margin-top: 1em;
@@ -2482,7 +2470,7 @@ ul.contact-grids h5{
 	}
 	ul.contact-grids li {
 	  width: 47%;
-	  margin-right: 0%;
+	  margin-right: 60%;
 	  margin-bottom: 2%;
 	}
 	.contact iframe {
