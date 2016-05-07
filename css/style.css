@@ -18,6 +18,7 @@ body a,.grid_1,plan_1,plan_1.one,plan_1.two,i.icon1, i.icon2, i.icon3, i.icon4, 
 }
 a:hover{
  text-decoration:none;
+ color: #0C9488;
 }
 input[type="button"],input[type="submit"],li.parallelogram{
 	transition:0.5s all;
@@ -623,7 +624,7 @@ a.sign {
 }
 
 .ch-info p a:hover {
-	color: #fff222;
+	color: #0C9488;
 	color: rgba(255,242,34, 0.8);
 }
 
@@ -761,7 +762,7 @@ margin-right:0%;
   -moz-background-size: cover;
   -o-background-size: cover;
   -ms-background-size: cover;
-  min-height:400px;
+  min-height:600px;
 }
 .banner.bg-bride {
   background: url(../images/bg-bride.jpg) no-repeat 0px 0px;
@@ -770,7 +771,7 @@ margin-right:0%;
   -moz-background-size: cover;
   -o-background-size: cover;
   -ms-background-size: cover;
-  min-height:400px;
+  min-height:600px;
 }
 .banner.bg-groom {
   background: url(../images/bg-groom.jpg) no-repeat 0px 0px;
@@ -779,7 +780,7 @@ margin-right:0%;
   -moz-background-size: cover;
   -o-background-size: cover;
   -ms-background-size: cover;
-  min-height:400px;
+  min-height:600px;
 }
 .banner.bg-info {
   background: url(../images/bg-info.jpg) no-repeat 0px 0px;
@@ -788,16 +789,7 @@ margin-right:0%;
   -moz-background-size: cover;
   -o-background-size: cover;
   -ms-background-size: cover;
-  min-height:400px;
-}
-.banner.bg-contact {
-  background: url(../images/bg-contact.jpg) no-repeat 0px 0px;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -ms-background-size: cover;
-  min-height:400px;
+  min-height:600px;
 }
 .about-section {
   padding: 4em 0;
@@ -1579,7 +1571,7 @@ ul.contact-grids h5{
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  -ms-background-size: cover;
-	  min-height: 586px;
+	  min-height: 600px;
 	}
 	.banner-info {
 	  width: 60%;
@@ -1720,7 +1712,7 @@ ul.contact-grids h5{
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  -ms-background-size: cover;
-	  min-height: 340px;
+	  min-height: 550px;
 	}
 	.welcome-section h2, .story-section h3, .event-section h3, .about-section h3, .people-grides h3, h3.type,.signup-section h3 {
 	  font-size: 3.5em;
@@ -1915,7 +1907,7 @@ ul.contact-grids h5{
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  -ms-background-size: cover;
-	  min-height: 289px;
+	  min-height: 370px;
 	}
 	.banner-info h3 {
 	  font-size: 3em;
@@ -2049,7 +2041,7 @@ ul.contact-grids h5{
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  -ms-background-size: cover;
-	  min-height: 228px;
+	  min-height: 320px;
 	}
 	.welcome-section p {
 	  font-size: 0.85em;
@@ -2057,6 +2049,9 @@ ul.contact-grids h5{
 	  .top-menu ul {
 	  width: 93.2%;
 	}
+.logo a h1{ 
+ font-size:1.5em;
+ }
 	.banner-info h3 {
 	  font-size: 2.8em;
 	}
@@ -2483,5 +2478,10 @@ ul.contact-grids h5{
 	  padding: .3em 0 0;
 	  margin: 0;
 	}
+}
+#shriya h4 {
+  font-family: 'Sail', cursive;
+  color:#408ff6;
+  font-size: 2.5em;
 }
 		
