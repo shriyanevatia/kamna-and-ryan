@@ -1545,15 +1545,6 @@ ul.contact-grids h5{
 	  -ms-background-size: cover;
 	  min-height: 662px;
 	}
-	.banner.two {
-	  background: url(../images/bg-two.jpg) no-repeat 0px 0px;
-	  background-size: cover;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  -ms-background-size: cover;
-	  min-height: 336px;
-	}
 	.botton1 {
 	  margin-right: 8.5em;
 	  margin-top: 1.5em;
@@ -1580,15 +1571,6 @@ ul.contact-grids h5{
 	}
 	.banner-info h3 {
 	  font-size: 4.5em;
-	}
-	.banner.two {
-	  background: url(../images/bg-two.jpg) no-repeat 0px 0px;
-	  background-size: cover;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  -ms-background-size: cover;
-	  min-height: 316px;
 	}
 }
 @media (max-width:1280px){
@@ -1649,15 +1631,6 @@ ul.contact-grids h5{
 	}
 	.copy {
 	  padding: 0.8em 0 0 0;
-	}
-	.banner.two {
-	  background: url(../images/bg-two.jpg) no-repeat 0px 0px;
-	  background-size: cover;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  -ms-background-size: cover;
-	  min-height: 244px;
 	}
 	.welcome-section h2,.story-section h3,.event-section h3,.about-section h3,.people-grides h3,h3.type,.signup-section h3{
 	  font-size: 3.6em;
@@ -1775,15 +1748,6 @@ ul.contact-grids h5{
 	  -o-background-size: cover;
 	  -ms-background-size: cover;
 	  min-height: 258px;
-	}
-	.banner.two {
-	  background: url(../images/bg-two.jpg) no-repeat 0px 0px;
-	  background-size: cover;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  -ms-background-size: cover;
-	  min-height: 179px;
 	}
 	.about-section {
 	  padding: 3em 0;
@@ -2007,15 +1971,6 @@ ul.contact-grids h5{
 	.ch-grid {
     margin: 2em 0 0 0;
     }
-	.banner.two {
-	  background: url(../images/bg-two.jpg) no-repeat 0px 0px;
-	  background-size: cover;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  -ms-background-size: cover;
-	  min-height: 139px;
-	}
 	.logo a h1 {
 	  font-size: 2.1em;
 	  padding:0.3em 0.7em;
@@ -2114,15 +2069,6 @@ ul.contact-grids h5{
 	  padding: 0.5em 1em;
 	  font-size: 0.8em;
 	  margin-top: 0.3em;
-	}
-	.banner.two {
-	  background: url(../images/bg-two.jpg) no-repeat 0px 0px;
-	  background-size: cover;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  -ms-background-size: cover;
-	  min-height: 109px;
 	}
 	.welcome-section h2, .story-section h3, .event-section h3, .about-section h3, .people-grides h3, h3.type, .signup-section h3 {
 	  font-size:2.8em;
@@ -2441,15 +2387,6 @@ ul.contact-grids h5{
 	  width: 90%;
 	  z-index: 99999;
 	  margin: 46px 0;
-	}
-	.banner.two {
-	  background: url(../images/bg-two.jpg) no-repeat 0px 0px;
-	  background-size: cover;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  -ms-background-size: cover;
-	  min-height: 80px;
 	}
 	.people-text h4 {
 	  font-size: 1em;
