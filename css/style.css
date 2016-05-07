@@ -2049,6 +2049,42 @@ ul.contact-grids h5{
 	  .top-menu ul {
 	  width: 93.2%;
 	}
+  .banner.bg-story {
+  background: url(../images/bg-story.jpg) no-repeat 0px 0px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height:250px;
+}
+.banner.bg-bride {
+  background: url(../images/bg-bride.jpg) no-repeat 0px 0px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height:250px;
+}
+.banner.bg-groom {
+  background: url(../images/bg-groom.jpg) no-repeat 0px 0px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height:250px;
+}
+.banner.bg-info {
+  background: url(../images/bg-info.jpg) no-repeat 0px 0px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height:250px;
+}
 .logo a h1{ 
  font-size:1.5em;
  }
